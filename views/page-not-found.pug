@@ -1,0 +1,14 @@
+extends layout.pug
+
+block content
+
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back    
+
+    .error-div
+        h1 Error #{err.status}: #{err.message}
+        //- img(src="../static/images/error.jpeg", alt="Technical difficulties cartoon")
+
+    

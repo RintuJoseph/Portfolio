@@ -1,0 +1,77 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "Random Quote Generator",
+            "description": "An application that fetches a new random quote each time a button is pressed and displays it in the browser.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://rintujoseph.github.io/Lab1/",
+            "github_link": "https://github.com/RintuJoseph/Lab1",
+            "image_urls": [
+                "../static/images/RandomQuote.PNG",
+                "../static/images/RandomQuote1.PNG",
+                "../static/images/RandomQuote2.PNG",
+                "../static/images/RandomQuote3.PNG"
+            ]
+        },
+        {
+            "id": "1",
+            "project_name": "Pagination",
+            "description": "This project is to move between different pages on clicking respective page numbers.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Vanilla JavaScript"
+            ],
+            "live_link": "https://rintujoseph.github.io/Lab2/",
+            "github_link": "https://github.com/RintuJoseph/Lab2",
+            "image_urls": [
+                "../static/images/Pagination1.PNG",
+                "../static/images/Pagination3.png",
+                "../static/images/Pagination2.PNG",
+                "../static/images/Pagination4.PNG"
+            ]
+        },
+        {
+            "id": "2",
+            "project_name": "DreamLand Adventure Park",
+            "description": "This is a website for promoting Dreamland Theme Park by introducing its fascinating attractions, online ticket booking and souvenirs. The theme park aims at providing a complete entertainment to both physical and mental relaxation to the whole family.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://rintujoseph.github.io/Dreamland/",
+            "github_link": "https://github.com/RintuJoseph/Dreamland",
+            "image_urls": [
+                "../static/images/DreamLand1.PNG",
+                "../static/images/DreamLand2.PNG",
+                "../static/images/DreamLand3.PNG",
+                "../static/images/DreamLand4.PNG"
+            ]
+        },
+        {
+            "id": "3",
+            "project_name": "BMI Calculator",
+            "description": "This is an app for calculating the BMI.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "EJS",
+                "JavaScript"
+            ],
+            
+            "github_link": "https://github.com/RintuJoseph/BMICalculator",
+            "image_urls": [
+                "../static/images/BMICalc1.PNG",
+                "../static/images/BMICalc4.PNG",
+                "../static/images/BMICalc3.PNG",
+                "../static/images/BMICalc2.PNG"
+            ]
+        }
+    ]
+}

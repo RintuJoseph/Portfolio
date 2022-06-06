@@ -1,0 +1,14 @@
+extends layout.pug
+
+block content
+
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back    
+
+    .error-div
+        h1 Error #{err.status}: #{err.message}
+        iframe.giphy-embed(src='https://giphy.com/embed/VekcnHOwOI5So' frameborder='0' allowfullscreen='')
+            p
+                a(href='https://giphy.com/gifs/digital-VekcnHOwOI5So') via GIPHY 

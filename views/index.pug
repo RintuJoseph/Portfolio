@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 Portfolio of educational Projects
+
+    p This is a portfolio of projects I have completed as part of my course. 
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project, index in projects
+        .cell
+          a(href=`/projects/${index}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name}`)
+            h5 #{project.project_name}
+
+
